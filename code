@@ -1,0 +1,24 @@
+# code1:
+
+a=int(input("enter no.of introduction to python programming book required")
+b=int(input("enter no.of python libraries cookbook books required")
+c=int(input("enter no.of data science in python books required")
+delivery_charge=250
+# cost of introduction to python programming book is 455
+# cost of python libraries cookbook book is 855
+# cost of data science in python book is 645
+sub_total= a*499 + b*855 + c*645
+tax_amount = 0.12*sub_total
+total_amount = sub_total+tax_amount+delivery_charge
+print("The total amount to be paid is", total_amount)
+
+# code2:
+
+
+string1=input("string1: ")
+unique_letters=set()
+print("unique letters : ",end="")
+for char in string1:
+        if char not in unique_letters:
+            unique_letters.add(char)
+            print(char,end=",")
